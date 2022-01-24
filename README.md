@@ -15,7 +15,17 @@ Using the slicing concept rotate the list
 ### Step 5: 
 ### Step 6: 
 ## Program:
+```
+def circulate():
+    L=[10,20,30,40,50,60]
+    n=int(input())
+    l=L[n:]+L[:n]
+    print("After circulating the values are:",l)
+```
+
 
 ## Output:
+![GitHub Logo](/images/pyt.png)
+
 
 ## Result:
